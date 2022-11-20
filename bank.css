@@ -1,0 +1,190 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F4F7FD;;
+}
+
+
+  #wrapper {
+    overflow-x: hidden;
+    background-image: linear-gradient(
+      to right,
+      #baf3d7,
+      #c2f5de,
+      #cbf7e4,
+      #d4f8ea,
+      #ddfaef
+    );
+  }
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 15rem;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  #menu-toggle {
+    cursor: pointer;
+  }
+
+
+
+  .list-group-item {
+    border: none;
+    padding: 20px 30px;
+  }
+  
+  .list-group-item.active {
+    background-color: transparent;
+    color: var(--main-text-color);
+    font-weight: bold;
+    border: none;
+  }
+
+  ul.sidebar-menu li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+  }
+  
+
+
+.depsit-box {
+    background-color: #ffffff;
+    color: #000000;
+    border-left: 10px solid #00a1f1;
+    box-shadow: 0 0 2rem 0 rgba(41,48,66,.1);
+}
+.widthdraw-box {
+    background-color: #ffffff;
+    color: #000000;
+    border-left:10px solid #F59E0B;
+    box-shadow: 0 0 2rem 0 rgba(41,48,66,.1);
+}
+
+.blance-box {
+    background-color: #ffffff;
+    color:#000000;
+    border-left: 10px solid #16A34D;
+    box-shadow: 0 0 2rem 0 rgba(41,48,66,.1);
+}
+
+.expence-box {
+    background-color: #ffffff;
+    color:#000000;
+    border-left: 10px solid #EB4546;
+    box-shadow: 0 0 2rem 0 rgba(41,48,66,.1);
+}
+
+.deposit-form {
+    background-color: #ffffff;
+}
+
+.withdraw-form {
+    background-color: #ffffff;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+
+.expence-data {
+    background-color: #ffffff;
+}
+
+
+
+.thead-dark {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.navbar-bg {
+    background-color: #ffffff;
+    box-shadow: 0 0 2rem 0 rgba(41,48,66,.1);
+    
+}
+
+
+ul.navbar-nav li a {
+    padding: 10px 20px !important;
+    color: #000000;
+    font-size: 16px;
+}
+
+ul.navbar-nav li a i {
+    font-size: 18px;
+}
+
+.form-error-text {
+    margin-top: 0.75rem;
+    font-size: .875em;
+    color: #f0141e;
+    background-color: #ffecec;
+    padding: 6px 15px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+     }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+ }
