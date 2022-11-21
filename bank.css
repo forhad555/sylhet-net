@@ -24,11 +24,12 @@ ul.top-nav li:hover {
 
 ul.top-nav .dropdown-menu {
   padding: 10px 0;
-  width: 15em;
+  width: 14em;
   top: 51px;
   right: -7px;
   left: auto;
   overflow: visible;
+  border: none;
 }
 
 ul.top-nav .dropdown-menu li {
@@ -41,7 +42,7 @@ ul.dropdown-menu li a {
 }
 
 ul.dropdown-menu li a:hover {
-  background-color: #00a1f1;
+  background-color: #0D0144;
   color: #ffffff;
 }
 
