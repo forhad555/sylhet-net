@@ -82,8 +82,17 @@ ul.navbar-nav li a i {
   animation: growOut 300ms ease-in-out forwards;
   transform-origin: top center;
   transition: all 2s ease;
+  padding: 0;
 }
 
+
+.msg-badge {
+  transform: translate(-120%,-50%)!important;
+}
+
+.noti-badge {
+  transform: translate(-90%,-50%)!important;
+}
 
 .message-box::before, .notification::before, .user-drop-menu::before {
   background: #fff;
@@ -118,6 +127,14 @@ ul.navbar-nav li a i {
   transition: all 2s ease;
   width: 400px;
   padding: 0;
+}
+
+.notification-header p {
+  font-size: 14px;
+}
+
+.notification-header a {
+  font-size: 14px;
 }
 
 
@@ -272,8 +289,6 @@ ul.dropdown-menu li a {
     background-color: #0d6efd;
     color: #ffffff;
 }
-
-
 
 
 
