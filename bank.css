@@ -1,6 +1,6 @@
 body {
-  font-family: 'Inter', sans-serif;
-    background-color: #F4F7FD;;
+  font-family: 'Poppins', sans-serif;
+    background-color: #E7ECF8;;
 }
 
 
@@ -23,9 +23,7 @@ ul.top-nav li:hover {
 }
 
 ul.top-nav .dropdown-menu {
-  padding: 10px 0;
-  width: 14em;
-  top: 51px;
+  top: 62px;
   right: -7px;
   left: auto;
   overflow: visible;
@@ -54,6 +52,31 @@ ul.top-nav .dropdown-menu li i {
   display: none;
 }
 
+ul.navbar-nav li a i {
+  font-size: 20px;
+}
+
+
+
+.user-drop-menu {
+  animation: growOut 300ms ease-in-out forwards;
+  transform-origin: top center;
+  transition: all 2s ease;
+}
+
+@keyframes growOut {
+  0% {
+     transform: scale(0)
+ }
+ 80% {
+     transform: scale(1.0)
+ }
+ 100% {
+     transform: scale(1)
+ }
+}
+
+
 
 .message-box {
   animation: growOut 300ms ease-in-out forwards;
@@ -62,12 +85,48 @@ ul.top-nav .dropdown-menu li i {
 }
 
 
+.message-box::before, .notification::before, .user-drop-menu::before {
+  background: #fff;
+    border-left: 1px solid #f2f4f9;
+    border-top: 1px solid #f2f4f9;
+    content: "";
+    height: 13px;
+    position: absolute;
+    right: 28px;
+    top: -7px;
+    transform: rotate(45deg);
+    width: 13px;
+}
+
+
 @keyframes growOut {
      0% {
         transform: scale(0)
     }
     80% {
-        transform: scale(1.1)
+        transform: scale(1.0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+
+.notification {
+  animation: growOut 300ms ease-in-out forwards;
+  transform-origin: top center;
+  transition: all 2s ease;
+  width: 400px;
+  padding: 0;
+}
+
+
+@keyframes growOut {
+     0% {
+        transform: scale(0)
+    }
+    80% {
+        transform: scale(1.0)
     }
     100% {
         transform: scale(1)
@@ -108,7 +167,7 @@ ul.top-nav .dropdown-menu li i {
 
   .sidebar-content {
     padding: 12px 0;
-    background-color: #0d0144;
+    background-color: #ffffff;
 }
 
 
@@ -120,12 +179,11 @@ ul.top-nav .dropdown-menu li i {
 }
 
 ul.sidebar-menu li a {
-  color: #ffffff;
+  color: #40475c;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   display: block;
   padding: 12px 30px;
-
 }
 
 ul.sidebar-menu li i {
@@ -133,7 +191,7 @@ ul.sidebar-menu li i {
   text-align: center;
   font-size: 18px;
   margin: 0 10px 0 0;
-  color: #ffffff;
+  color: #40475c;
 }
 
 ul.message-box {
