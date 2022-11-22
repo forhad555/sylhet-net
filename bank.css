@@ -87,11 +87,13 @@ ul.navbar-nav li a i {
 
 
 .msg-badge {
-  transform: translate(-120%,-50%)!important;
+  transform: translate(-150%,-50%)!important;
+  padding: 2px 5px;
 }
 
 .noti-badge {
-  transform: translate(-90%,-50%)!important;
+  transform: translate(-110%,-50%)!important;
+  padding: 2px 5px;
 }
 
 .message-box::before, .notification::before, .user-drop-menu::before {
