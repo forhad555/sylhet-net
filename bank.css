@@ -247,12 +247,48 @@ ul.dropdown-menu li a {
     border-left: 10px solid #00a1f1;
     box-shadow: 0 0 2rem 0 rgba(41,48,66,.1);
 }
+
+.deposit-box-content h5 {
+  color: #a1a5b5;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.deposit-box-icon {
+  background-color: #c7e9fb;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #3065f1;
+}
+
+.ms-auto.deposit-box-icon i {
+  font-size: 50px;
+}
+
+
 .widthdraw-box {
     background-color: #ffffff;
     color: #000000;
     border-left:10px solid #F59E0B;
     box-shadow: 0 0 2rem 0 rgba(41,48,66,.1);
 }
+
+.withdraw-box-content h5 {
+  color: #a1a5b5;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+.withdraw-box-icon {
+  background-color: #d0ffe3;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #4bb373;
+}
+
 
 .blance-box {
     background-color: #ffffff;
