@@ -56,6 +56,10 @@ ul.navbar-nav li a i {
 }
 
 
+.profile-link {
+  font-size: 14px;
+}
+
 
 .user-drop-menu {
   animation: growOut 300ms ease-in-out forwards;
@@ -212,6 +216,19 @@ ul.sidebar-menu li i {
   color: #40475c;
 }
 
+.list-group-item a span.right {
+  position: absolute;
+  right: 2rem;
+  top: .7rem;
+}
+
+.badge-counter {
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+
+
 ul.message-box {
   width: 400px !important;
 }
@@ -239,6 +256,10 @@ ul.dropdown-menu li a {
   }
   
 
+
+.deposit-form input, .withdraw-form input {
+  font-size: 14px;
+}
 
 .depsit-box {
     background-color: #ffffff;
