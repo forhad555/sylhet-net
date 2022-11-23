@@ -36,12 +36,11 @@ ul.top-nav .dropdown-menu li {
 
 ul.dropdown-menu li a {
   color: #000000;
-  padding: 10px 20px;
+  padding: 8px 15px;
 }
-
 ul.dropdown-menu li a:hover {
-  background-color: #0D0144;
-  color: #ffffff;
+  background-color: #c8deff;
+  color: #000000;
 }
 
 ul.top-nav .dropdown-menu li i {
@@ -279,12 +278,15 @@ ul.dropdown-menu li a {
   font-size: 18px;
 }
 
-
 .withdraw-box-icon {
-  background-color: #d0ffe3;
+  background-color: #ffeed0;
   padding: 5px 15px;
   border-radius: 5px;
-  color: #4bb373;
+  color: #f19d11;
+}
+
+.withdraw-box-icon i {
+  font-size: 50px;
 }
 
 
@@ -294,11 +296,35 @@ ul.dropdown-menu li a {
     border-left: 10px solid #16A34D;
 }
 
+.balance-box-icon {
+  background-color: #bff4d4;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #16a34d;
+}
+
+.balance-box-icon i {
+  font-size: 50px;
+}
+
+
+
 .expence-box {
     background-color: #ffffff;
     color:#000000;
     border-left: 10px solid #EB4546;
 }
+
+.expence-box-icon {
+  background-color: #ffdada;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #eb4546;
+}
+.expence-box-icon i {
+  font-size: 50px;
+}
+
 
 .deposit-form {
     background-color: #ffffff;
@@ -327,41 +353,12 @@ ul.dropdown-menu li a {
 
 
 .form-error-text {
-    margin-top: 0.75rem;
-    font-size: .875em;
-    color: #f0141e;
-    background-color: #ffecec;
-    padding: 6px 15px;
-    border-radius: 3px;
+  margin-top: 0.75rem;
+  font-size: 13px;
+  color: #f0141e;
+  background-color: #ffecec;
+  padding: 6px 15px;
+  border-radius: 3px;
 }
 
-
-
-
-
-
-
-/* // X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap */
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-
- }
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-     }
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    
- }
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
- }
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
- }
+/* 992 to 1360 Responsive issue */
