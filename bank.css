@@ -245,7 +245,6 @@ ul.dropdown-menu li a {
     background-color: #ffffff;
     color: #000000;
     border-left: 10px solid #00a1f1;
-    box-shadow: 0 0 2rem 0 rgba(41,48,66,.1);
 }
 
 .deposit-box-content h5 {
@@ -271,7 +270,6 @@ ul.dropdown-menu li a {
     background-color: #ffffff;
     color: #000000;
     border-left:10px solid #F59E0B;
-    box-shadow: 0 0 2rem 0 rgba(41,48,66,.1);
 }
 
 .withdraw-box-content h5 {
@@ -294,14 +292,12 @@ ul.dropdown-menu li a {
     background-color: #ffffff;
     color:#000000;
     border-left: 10px solid #16A34D;
-    box-shadow: 0 0 2rem 0 rgba(41,48,66,.1);
 }
 
 .expence-box {
     background-color: #ffffff;
     color:#000000;
     border-left: 10px solid #EB4546;
-    box-shadow: 0 0 2rem 0 rgba(41,48,66,.1);
 }
 
 .deposit-form {
