@@ -1,6 +1,6 @@
 body {
-  font-family: 'Poppins', sans-serif;
-    background-color: #E7ECF8;;
+  font-family: 'Roboto', sans-serif;
+  background-color: #E7ECF8;;
 }
 
 
@@ -264,15 +264,9 @@ ul.dropdown-menu li a {
 .depsit-box {
     background-color: #ffffff;
     color: #000000;
-    border-left: 10px solid #00a1f1;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
 }
 
-.deposit-box-content h5 {
-  color: #a1a5b5;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 18px;
-}
 
 .deposit-box-icon {
   background-color: #c7e9fb;
@@ -280,24 +274,16 @@ ul.dropdown-menu li a {
   border-radius: 5px;
   color: #3065f1;
 }
-
-.ms-auto.deposit-box-icon i {
-  font-size: 50px;
+.deposit-box-icon i {
+  font-size: 35px;
 }
-
 
 .widthdraw-box {
     background-color: #ffffff;
     color: #000000;
-    border-left:10px solid #F59E0B;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
 }
 
-.withdraw-box-content h5 {
-  color: #a1a5b5;
-  text-transform: capitalize;
-  font-weight: 400;
-  font-size: 18px;
-}
 
 .withdraw-box-icon {
   background-color: #ffeed0;
@@ -306,15 +292,16 @@ ul.dropdown-menu li a {
   color: #f19d11;
 }
 
+
 .withdraw-box-icon i {
-  font-size: 50px;
+  font-size: 35px;
 }
 
 
 .blance-box {
     background-color: #ffffff;
     color:#000000;
-    border-left: 10px solid #16A34D;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
 }
 
 .balance-box-icon {
@@ -323,17 +310,14 @@ ul.dropdown-menu li a {
   border-radius: 5px;
   color: #16a34d;
 }
-
 .balance-box-icon i {
-  font-size: 50px;
+  font-size: 35px;
 }
-
-
 
 .expence-box {
     background-color: #ffffff;
     color:#000000;
-    border-left: 10px solid #EB4546;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
 }
 
 .expence-box-icon {
@@ -342,9 +326,28 @@ ul.dropdown-menu li a {
   border-radius: 5px;
   color: #eb4546;
 }
+
 .expence-box-icon i {
-  font-size: 50px;
+  font-size: 35px;
 }
+
+
+.deposit-box-content h5, .withdraw-box-content h5, .balance-box-content h5, .expence-box-content h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #a1a5b5;
+  font-weight: 300;
+}
+
+.deposit-box-content h1 span, .withdraw-box-content h1 span, .balance-box-content h1 span, .expence-box-content h1 span  {
+  font-size: 33px;
+}
+
+.deposit-box-content h1 i, .withdraw-box-content h1 i, .balance-box-content h1 i, .expence-box-content h1 i {
+  font-size: 33px;
+  margin-right: 6px;
+}
+
 
 
 .deposit-form {
