@@ -314,6 +314,18 @@
           </div>
         </div>
         <div class="row py-4 py-md-2 px-md-2">
+          <div class="col-md-12 mb-md-4 col-lg-7 mb-4">
+            <div class="expence-data py-2 px-2 shadow-sm rounded">
+              <canvas id="barChart"></canvas>
+            </div>
+          </div>
+          <div class="col-md-12 mb-md-4 col-lg-5 mb-4">
+            <div class="expence-data py-2 px-2 shadow-sm rounded">
+              <canvas id="pieChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="row py-4 py-md-2 px-md-2">
           <div class="col-md-6 mb-md-4 col-lg-3 mb-4">
             <div class="deposit-form py-3 px-3 shadow-sm rounded">
               <div class="mb-3">
@@ -342,46 +354,6 @@
               <button type="submit" class="btn btn-danger" id="withdraw-btn">Withdraw</button>
             </div>
           </div>
-          <div class="col-md-12 mb-md-4 col-lg-6 mb-4">
-            <div class="expence-data py-2 px-2 shadow-sm rounded">
-              <table class="table table-bordered">
-                <tr>
-                  <thead class="">
-                    <tr>
-                      <th>Title</th>
-                      <th>Remark</th>
-                      <th>Amount</th>
-                    </tr>
-                  </thead>
-                </tr>
-                <tr>
-                  <td>Withdraw</td>
-                  <td>Eletricity</td>
-                  <td>$350</td>
-                </tr>
-                <tr>
-                  <td>Withdraw</td>
-                  <td>Gas Bill</td>
-                  <td>$150</td>
-                </tr>
-                <tr>
-                  <td>Withdraw</td>
-                  <td>Gari Bara</td>
-                  <td>$550</td>
-                </tr>
-                <tr>
-                  <td>Withdraw</td>
-                  <td>House rent</td>
-                  <td>$650</td>
-                </tr>
-                <tr>
-                  <td>Withdraw</td>
-                  <td>School Fees</td>
-                  <td>$850</td>
-                </tr>
-              </table>
-            </div>
-          </div>
         </div>
       </div>
      <!---- Main Body Content Area ---->
@@ -391,6 +363,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
   <script src="js/bank.js"></script>
 </body>
 </html>

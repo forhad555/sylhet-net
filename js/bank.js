@@ -66,3 +66,55 @@ const withdrawButton = document.getElementById('withdraw-btn').addEventListener(
     
 });
 
+// Start pieChart Area
+const pieXValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+const pieYValues = [55, 49, 44, 24, 15];
+const pieBarColors = ["#269DFF", "#FD536A", "#15CA20", "#FFCA2C", "#212529"];
+
+new Chart("pieChart", {
+  type: "doughnut",
+  data: {
+    labels: pieXValues,
+    datasets: [{
+      backgroundColor: pieBarColors,
+      data: pieYValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "World Wide Wine Production 2018"
+    }
+  }
+});
+
+// End pieChart Area
+
+
+// Start barChart Area
+
+const barXValues = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+const barYValues = [55, 49, 44, 34, 35, 40, 35, 40, 45, 35, 40, 45];
+
+const barColors = ["#269DFF", "#FD536A", "#15CA20", "#FFCA2C", "#212529", "#000000", "#00a1f1", "#000000", "#000000", "#000000", "#000000", "#000000"];
+
+new Chart("barChart", {
+  type: "bar",
+  data: {
+    labels: barXValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: barYValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "World Wine Production 2018"
+    }
+  }
+});
+
+// End barChart Area
