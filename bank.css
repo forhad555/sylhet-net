@@ -386,3 +386,16 @@ ul.dropdown-menu li a {
 }
 
 /* 992 to 1360 Responsive issue */
+
+
+.card-main {
+  border: none;
+}
+
+.card-header-main {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2dfdf;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
