@@ -1,6 +1,6 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #E7ECF8;;
+  font-family: 'Inter', sans-serif;
+  background-color: #F9FBFD;;
 }
 
 
@@ -206,14 +206,22 @@ ul.sidebar-menu li a {
   font-size: 14px;
   display: block;
   padding: 12px 30px;
+  position: relative;
+  font-weight: 500;
+  transition: color 0.2s ease, background-color 0.2s ease, padding-left 0.2s ease;
+}
+
+ul.sidebar-menu li a:hover {
+  padding-left: 25px;
+  color:#00a1f1;
 }
 
 ul.sidebar-menu li i {
   width: 20px;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   margin: 0 10px 0 0;
-  color: #40475c;
+  color: #7f7ebe;
 }
 
 .list-group-item a span.right {
@@ -262,10 +270,11 @@ ul.dropdown-menu li a {
 }
 
 .depsit-box {
-    background-color: #ffffff;
-    color: #000000;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+  border: 1px solid #edf2f9;
 }
-
 
 .deposit-box-icon {
   background-color: #c7e9fb;
@@ -280,6 +289,8 @@ ul.dropdown-menu li a {
 .widthdraw-box {
     background-color: #ffffff;
     color: #000000;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    border: 1px solid #edf2f9;
 }
 
 
@@ -299,6 +310,8 @@ ul.dropdown-menu li a {
 .blance-box {
     background-color: #ffffff;
     color:#000000;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    border: 1px solid #edf2f9;
 }
 
 .balance-box-icon {
@@ -314,6 +327,8 @@ ul.dropdown-menu li a {
 .expence-box {
     background-color: #ffffff;
     color:#000000;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    border: 1px solid #edf2f9;
 }
 
 .expence-box-icon {
@@ -390,6 +405,8 @@ ul.dropdown-menu li a {
 
 .card-main {
   border: none;
+  box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+  border: 1px solid #edf2f9;
 }
 
 .card-header-main {
